@@ -14,3 +14,4 @@ npm run serve
 ```
 npm run build
 ```
+### O projeto compilado para distribuição está na pasta dist
