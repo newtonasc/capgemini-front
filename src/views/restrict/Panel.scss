@@ -1,0 +1,53 @@
+.content-title {
+    margin-top: 50px;
+    border-bottom: solid 1px grey;
+    height: 50px;
+}
+
+.content-account {
+    .content-wallet {
+        margin-top: 20px;
+        width: calc(100% - 370px);
+
+        .wallet {
+            .debit {
+                color: red;
+            }
+
+            .credit {
+                color: green;
+            }
+        }
+    }
+
+    .content-options {
+        margin-top: 20px;
+
+        .content-balance {
+            height: 160px;
+            background-color: aquamarine;
+            padding: 10px;
+            border-radius: 10px;
+
+            .balance {
+                font-weight: bold;
+                color: royalblue;
+                font-size: 42px;
+            }
+        }
+
+        .content-menu {
+            margin-top: 20px;
+            width: 350px;
+            text-align: center;
+
+            .col {
+                padding: 10px;
+
+                button {
+                    min-width: 200px;
+                }
+            }
+        }
+    }
+}
